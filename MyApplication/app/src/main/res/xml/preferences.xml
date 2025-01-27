@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Plage horaire pour les notifications (semaine) -->
+    <PreferenceCategory android:title="Notifications">
+        <EditTextPreference
+            android:key="notification_start_time"
+            android:title="Heure de début (semaine)"
+            android:summary="19:00"
+            android:defaultValue="19:00" />
+        <EditTextPreference
+            android:key="notification_end_time"
+            android:title="Heure de fin (semaine)"
+            android:summary="23:00"
+            android:defaultValue="23:00" />
+    </PreferenceCategory>
+
+    <!-- Plage horaire pour les e-mails (week-end) -->
+    <PreferenceCategory android:title="E-mails (Week-end)">
+        <EditTextPreference
+            android:key="email_weekend_start_time"
+            android:title="Heure de début (week-end)"
+            android:summary="19:00"
+            android:defaultValue="19:00" />
+        <EditTextPreference
+            android:key="email_weekend_end_time"
+            android:title="Heure de fin (week-end)"
+            android:summary="23:00"
+            android:defaultValue="23:00" />
+    </PreferenceCategory>
+
+    <!-- Plage horaire pour les e-mails (semaine) -->
+    <PreferenceCategory android:title="E-mails (Semaine)">
+        <EditTextPreference
+            android:key="email_week_start_time"
+            android:title="Heure de début (semaine)"
+            android:summary="23:00"
+            android:defaultValue="23:00" />
+        <EditTextPreference
+            android:key="email_week_end_time"
+            android:title="Heure de fin (semaine)"
+            android:summary="06:00"
+            android:defaultValue="06:00" />
+    </PreferenceCategory>
+
+    <!-- Adresse e-mail -->
+    <EditTextPreference
+        android:key="email_address"
+        android:title="Adresse e-mail"
+        android:summary="othmene.derouich123@gmail.com"
+        android:defaultValue="othmene.derouich123@gmail.com" />
+</PreferenceScreen>
